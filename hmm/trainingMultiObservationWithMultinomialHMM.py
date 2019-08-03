@@ -13,13 +13,13 @@ model.fit(X)
 test_set = [[0], [0], [4], [3], [3], [5]]
 result = model.predict(test_set)
 print(result)
-print "n_features:"
-print model.n_features
-print "startup prob:"
-print model.startprob_
-print "transition prob:"
-print model.transmat_
-print "emission prob:"
-print model.emissionprob_
-print "score:"
-print model.score(test_set)
+print("n_features:")
+print(model.n_features)
+print("startup prob:")
+print(model.startprob_)
+print("transition prob:")
+print(model.transmat_)
+print("emission prob:")
+print(model.emissionprob_)
+print("score:")
+print(model.score(test_set))
